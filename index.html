@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Follow Up Survey</title>
+</head>
+<body>
+    <div class="main">
+        <div class="title">
+            <h1>Follow Up Survey</h1>
+        </div>
+        <div class="survey">
+            <div class="service-info">
+                <div class="input">
+                    <label>When did you use our service?</label>
+                    <input type="date"/>
+                </div>
+                <div class="seperator"></div>
+                <div class="input">
+                    <label>Name of product or service</label>
+                    <input type="text"/>
+                </div>
+                <div class="date">
+                    <span>Date</span>
+                </div>
+            </div>
+
+            <label class="question-label" for="question-one">Overall, how satisfied are you with the product or service?</label>
+            <div class="question">
+                <table>
+                    <tr>
+                        <td><input type="radio" name="question-one" value="1" /><label>Very satisfied</label></td>
+                        <td><input type="radio" name="question-one" value="2" /><label>Neutral</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="question-one" value="3" /><label>Very unsatisfied</label></td>
+                        <td><input type="radio" name="question-one" value="4" /><label>Satisfied</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="question-one" value="5" /><label>Unsatisfied</label></td>
+                        <td><input type="radio" name="question-one" value="6" /><label>Unsatisfied</label></td>
+                    </tr>
+                </table>
+            </div>
+
+            <label class="question-label" for="question-three">Did our product or service meet your expectations?</label>
+            <div class="question">
+                <table>
+                    <td><input type="radio" name="question-two" value="1" /><label>Yes</label></td>
+                    <td><input type="radio" name="question-two" value="2" checked="checked"/><label>No</label></td>
+                </table>
+            </div>
+
+            <label class="question-label" for="question-three">Would you recommend this product or service to a friend?</label>
+            <div class="question">
+                <table>
+                    <td><input type="radio" name="question-three" value="1" /><label>Yes</label></td>
+                    <td><input type="radio" name="question-three" value="2" checked="checked"/><label>No</label></td>
+                </table>
+            </div>
+
+            <label class="question-label" for="question-four">What aspect of the product or service were you most satisfied by?</label>
+            <div class="question">
+                <table>
+                    <tr>
+                        <td><input type="radio" name="question-four" value="1" /><label>Quality</label></td>
+                        <td><input type="radio" name="question-four" value="2" /><label>Customer service</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="question-four" value="3" /><label>Price</label></td>
+                        <td><input type="radio" name="question-four" value="4" /><label>Installation or first use experience</label></td>
+                    </tr>
+                </table>
+            </div>
+
+            <label class="question-label" for="question-five">What aspect of the product or service were you least satisfied by?</label>
+            <div class="question">
+                <table>
+                    <tr>
+                        <td><input type="radio" name="question-five" value="1" /><label>Quality</label></td>
+                        <td><input type="radio" name="question-five" value="2" /><label>Customer service</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="question-five" value="3" /><label>Price</label></td>
+                        <td><input type="radio" name="question-five" value="4" /><label>Installation or first use experience</label></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="additional-comment">
+                <label>Additional Comments:</label>
+                <textarea name="additional-comment" rows="4" cols="50" placeholder="Type here..."></textarea>
+            </div>
+
+            <div class="submit-btn">
+                <button type="sumbit">Submit</button>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
